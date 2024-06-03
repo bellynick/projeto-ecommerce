@@ -20,7 +20,6 @@ nav#menu li{
     background-color: rgba(233, 132, 132, 0.87);
     padding: 12px;
     
-
 }
 
 body {
@@ -44,9 +43,14 @@ nav#menu a:visited{
     color: rgb(241, 176, 176);
     font-weight: bold;
 }
-nav#menu a:hover{
-    color: rgba(160, 47, 47, 0.87);
-}
 nav#menu li:hover{
     background-color: rgba(197, 88, 88, 0.87);
+}
+
+/* Manipulação de imagens do projeto, na página produtos */
+.produtos img{
+    max-width: 300px;
+}
+.precoDesc{
+    font-size: 25px;
 }
